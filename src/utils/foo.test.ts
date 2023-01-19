@@ -1,1 +1,1 @@
-import { expect, describe, it } from "@jest/globals";import foo from "./foo";describe("capitalizeFirstLetter", () => {    it("Проверка сложения двух чисел", () => {        const result = foo(1 , 2);        expect(result).toBe(3);    });});
+import { expect, describe, it } from "@jest/globals";import foo from "./foo";describe("capitalizeFirstLetter", () => {  it("Проверка сложения двух чисел", () => {    const result = foo(1, 2);    expect(result).toBe(3);  });});
